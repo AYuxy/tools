@@ -1,0 +1,1 @@
+javaw -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -javaagent:CSAgent.jar=3a4425490f389aeec312bdd758ad2b99 -jar cobaltstrike.jar
